@@ -92,6 +92,29 @@ print(dataset["narrative"])
 print(dataset["segmentation"].split("\\n")[:5])
 ```
 
+## Figures
+
+The notebook includes code for the main paper figures and appendix analyses:
+
+| Section in notebook | Output or analysis |
+|---|---|
+| Reliability of GPT-4 scoring recall | Human vs. GPT-4 recall-scoring agreement |
+| Scaling law in narrative recall | Recall and recognition scaling with narrative length |
+| Temporal order of recall | Recall order for coherent vs. scrambled stories |
+| `Prec` vs. `Phit` | Relationship between recognition and recall probabilities |
+| Semantic similarity for recall probability | Correlations between embedding similarity and recall probability |
+| Output interference | Recognition dynamics across trial position |
+| Appendix analyses | Serial-position curves, cumulative recall distributions, and scrambled-story comparisons |
+
+Some generated figure files are already included in `figs/`, including:
+
+- `fig1-figure-reliability.svg`
+- `fig2-scaling-plots.svg`
+- `fig3-recall_sequence_narrative_vs_list.svg`
+- `fig4-p_hit_vs_p_rec.svg`
+- `fig9-correlation_prec.svg`
+
+
 
 
 
