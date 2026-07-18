@@ -114,7 +114,19 @@ Some generated figure files are already included in `figs/`, including:
 - `fig4-p_hit_vs_p_rec.svg`
 - `fig9-correlation_prec.svg`
 
+## Citation
 
+If you use this code or data, please cite the accompanying paper:
+
+```bibtex
+@article{georgiou2023using,
+  title = {Using Large Language Models to Study Human Memory for Meaningful Narratives},
+  author = {Georgiou, Antonios and Can, Tankut and Katkov, Mikhail and Tsodyks, Misha},
+  year = {2023},
+  doi = {10.1101/2023.11.03.565484},
+  publisher = {bioRxiv}
+}
+```
 
 
 
