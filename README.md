@@ -71,6 +71,27 @@ python -m pip install --upgrade pip
 python -m pip install numpy pandas scipy matplotlib jupyter
 ```
 
+## Usage
+
+Open and run the notebook from the repository root:
+
+```bash
+jupyter notebook paper_figures.ipynb
+```
+
+Run the notebook cells sequentially from top to bottom. The notebook loads the prepared pickle files in `data/`, computes recall and recognition statistics, and regenerates the main and appendix figures.
+
+To inspect one prepared dataset directly:
+
+```python
+import pandas as pd
+
+dataset = pd.read_pickle("data/compiled_data/panic.pkl")
+print(dataset.keys())
+print(dataset["narrative"])
+print(dataset["segmentation"].split("\\n")[:5])
+```
+
 
 
 
