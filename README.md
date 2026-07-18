@@ -48,5 +48,29 @@ The files in `data/compiled_data/` are pickled Python dictionaries. Each narrati
 | `scramble_map` | Mapping for scrambled-story variants, when available |
 
 Included narratives and variants:
+| File | Description |
+|---|---|
+| `panic.pkl` | Main “panic” narrative dataset |
+| `boyscout.pkl` / `boyscout-scrambled.pkl` | Coherent and scrambled versions |
+| `hester_v1-park.pkl` | Park narrative |
+| `hester_v2-church.pkl` / `hester_v2-church-scrambled.pkl` | Coherent and scrambled versions |
+| `schissel_v1-pool.pkl` | Pool narrative |
+| `schissel_v2-lake.pkl` | Lake narrative |
+| `stein.pkl` / `stein-scrambled.pkl` | Coherent and scrambled versions |
+| `triplett_v1-rookie.pkl` / `triplett_v1-rookie-scrambled.pkl` | Coherent and scrambled versions |
+| `triplett_v2-catlady.pkl` | Cat-lady narrative |
+
+## Installation
+
+Create a Python environment and install the core analysis dependencies:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install numpy pandas scipy matplotlib jupyter
+```
+
+
 
 
